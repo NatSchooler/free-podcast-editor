@@ -19,7 +19,6 @@ This software is free and given as it is. I do not offer help installing it, fix
 $7.99 launch price for the first 1,000 copies only.
 👉 [GET THE BOOK](https://natschooler.com/cat/)
 
-Feeling rich and want to support another creator? [DONATE HERE](DONATE_LINK)
 
 Subscribe to [Influential Visions on YouTube](https://www.youtube.com/@influentialvisions?sub_confirmation=1) and follow the podcast.
 
