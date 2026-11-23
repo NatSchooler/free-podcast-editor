@@ -1,0 +1,29 @@
+# Media Hub house style. The installer copies this to ~/media_hub/brand/house_style.txt
+# Out of the box everything is deliberately plain. Change these settings to make it yours.
+# One setting per line: NAME = value. Lines starting with # are ignored.
+
+# Your name, written into the MP3 files the hub makes
+MH_ARTIST =
+
+# Sound: off = rumble cut and loudness only. studio = noise removal, EQ, de-esser, compression.
+# Or write your own ffmpeg filter chain for sound-only jobs in MH_SOUND_ONLY_CHAIN
+MH_AUDIO_PRESET = off
+MH_SOUND_ONLY_CHAIN =
+MH_SOUND_ONLY_LUFS = -16
+MH_SOUND_ONLY_BREATH_DB = 12
+
+# Captions on shorts: highlight colour for the spoken word, and the font
+MH_BRAND_COLOUR = #FFFFFF
+MH_FONT = DejaVu Sans
+
+# Your logo: put logo.png in ~/media_hub/brand and it is added to your shorts
+MH_LOGO_ON_SHORTS = on
+MH_LOGO_ON_LONGFORM = off
+MH_LOGO_POSITION = top-right
+
+# Mid-roll advert: minutes into the episode, and the card colour shown behind an audio-only advert
+MH_MIDROLL_AT = 360
+MH_MIDROLL_CARD_COLOUR = #000000
+
+# The local AI model (Ollama) for titles, chapters, show notes and picking shorts
+MH_LLM = llama3:latest

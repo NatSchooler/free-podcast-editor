@@ -1,0 +1,7 @@
+# Machine settings for Media Hub (~/mediahub.conf). Leave blank to use the defaults.
+MH_LLM=
+MH_SHORTS_MODE=
+MH_SHORTS_COUNT=
+MH_AUTO_HOOK_TEXT=
+# Which graphics card whisper uses when there is more than one (0 = first)
+MH_VK_DEVICE=
